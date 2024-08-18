@@ -1,9 +1,9 @@
-import { BreedBase } from "@/types/breed"
 import { FC } from "react"
 import Card from "./Card"
+import { DogBreed } from "@/types/breed"
 
 type BreedListPropsType = {
-  breeds: BreedBase[]
+  breeds: DogBreed[]
 }
 
 const List: FC<BreedListPropsType> = ({ breeds }) => {
